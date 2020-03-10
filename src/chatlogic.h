@@ -17,8 +17,12 @@ private:
     ////
 
     // data handles (owned)
-    std::vector<GraphNode *> _nodes;
-    std::vector<GraphEdge *> _edges;
+    // Task 3: Convert raw pointer to unique_pointer.
+    // std::vector<GraphNode *> _nodes; // Previous version: raw pointer.
+    std::vector<std::unique_ptr<GraphNode>> _nodes; // unique_ptr version.
+    
+    // Task 4: transfer ownship of GraphEdge from ChatLogic to GraphNode
+    // std::vector<GraphEdge *> _edges;
 
     ////
     //// EOF STUDENT CODE

@@ -4,25 +4,27 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/src/chatbot.cpp" "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
-  "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/src/chatgui.cpp" "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
-  "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/src/chatlogic.cpp" "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
-  "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/src/graphedge.cpp" "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
-  "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/src/graphnode.cpp" "/home/eric/Documents/udacity/cpp/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
+  "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/src/chatbot.cpp" "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
+  "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/src/chatgui.cpp" "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
+  "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/src/chatlogic.cpp" "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+  "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/src/graphedge.cpp" "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
+  "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/src/graphnode.cpp" "/Users/ericwan/Documents/udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "WXUSINGDLL"
   "_FILE_OFFSET_BITS=64"
-  "__WXGTK__"
+  "__WXMAC__"
+  "__WXOSX_COCOA__"
+  "__WXOSX__"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0"
-  "/usr/include/wx-3.0"
+  "/usr/local/lib/wx/include/osx_cocoa-unicode-3.0"
+  "/usr/local/include/wx-3.0"
   )
 
 # Targets to which this target links.

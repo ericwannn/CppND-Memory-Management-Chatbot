@@ -67,8 +67,7 @@ ChatBot::ChatBot(ChatBot&& other)
     this->_chatLogic->SetChatbotHandle(this);
 
     other._image = NULL;
-    other._currentNode = nullptr;
-    other._rootNode = nullptr;
+    other._chatLogic = nullptr;
 }
 
 ChatBot& ChatBot::operator=(const ChatBot& other)
@@ -92,7 +91,10 @@ ChatBot& ChatBot::operator=(ChatBot&& other)
     std::cout << "ChatBot Move Assignment Operator\n";
 
     if (this != &other) {
-        *_image = *other._image;
+
+        if (_image != NULL) { delete _image; }
+
+        _image = other._image;
         this->_currentNode = other._currentNode;
         this->_rootNode = other._rootNode;
         this->_chatLogic = other._chatLogic;
@@ -101,6 +103,7 @@ ChatBot& ChatBot::operator=(ChatBot&& other)
         other._image = NULL;
         other._currentNode = nullptr;
         other._rootNode = nullptr;
+        other._chatLogic = nullptr;
     }
 
     return *this;
